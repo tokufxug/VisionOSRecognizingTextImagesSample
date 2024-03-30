@@ -12,6 +12,7 @@ struct ContentView: View {
     
     @State var uiImage: UIImage = UIImage(named: "image")!
     @State var text: String = ""
+    let textToSpeech: TextToSpeech = TextToSpeech()
     
     var body: some View {
         VStack {
@@ -51,6 +52,7 @@ struct ContentView: View {
             return observation.topCandidates(1).first?.string
         }
         text = recognizedStrings.joined(separator: ",")
+        textToSpeech.speech(text: text, lang: "ja-JP")
     }
 }
 

@@ -13,6 +13,7 @@
 		1AE971E82BB6F85200F75155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE971E72BB6F85200F75155 /* Assets.xcassets */; };
 		1AE971EB2BB6F85200F75155 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE971EA2BB6F85200F75155 /* Preview Assets.xcassets */; };
 		1AE971F62BB6F85200F75155 /* VisionOSRecognizingTextImagesSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE971F52BB6F85200F75155 /* VisionOSRecognizingTextImagesSampleTests.swift */; };
+		1AE972022BB7BD0C00F75155 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE972012BB7BD0C00F75155 /* TextToSpeech.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		1AE971EC2BB6F85200F75155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE971F12BB6F85200F75155 /* VisionOSRecognizingTextImagesSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSRecognizingTextImagesSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE971F52BB6F85200F75155 /* VisionOSRecognizingTextImagesSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSRecognizingTextImagesSampleTests.swift; sourceTree = "<group>"; };
+		1AE972012BB7BD0C00F75155 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				1AE971E32BB6F85000F75155 /* VisionOSRecognizingTextImagesSampleApp.swift */,
 				1AE971E52BB6F85000F75155 /* ContentView.swift */,
+				1AE972012BB7BD0C00F75155 /* TextToSpeech.swift */,
 				1AE971E72BB6F85200F75155 /* Assets.xcassets */,
 				1AE971EC2BB6F85200F75155 /* Info.plist */,
 				1AE971E92BB6F85200F75155 /* Preview Content */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE971E62BB6F85000F75155 /* ContentView.swift in Sources */,
+				1AE972022BB7BD0C00F75155 /* TextToSpeech.swift in Sources */,
 				1AE971E42BB6F85000F75155 /* VisionOSRecognizingTextImagesSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
